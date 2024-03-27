@@ -1,0 +1,62 @@
+- proje klasörü oluştur
+- npm init (-y opsiyonle)
+- npm i pg express dotenv
+- index.js oluştur
+- .env ile environment değişkenlerini tanımla
+- schema.sql ile veritabanı sorgularını tanımla
+- database.js ile database bağlantılarını tanımla
+
+
+
+
+
+Adding a Student:
+```json
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "dept_id": 1
+}
+```
+
+Deleting a Student:
+```json
+{
+    "id": 5
+}
+```
+
+Updating a Student:
+```json
+{
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "dept_id": 2
+}
+```
+
+Adding a Department:
+```json
+{
+    "name": "Computer Science",
+    "dept_std_id": 1
+}
+```
+
+Deleting a Department:
+```json
+{
+    "id": 3
+}
+```
+
+Updating a Department:
+```json
+{
+    "id": 2,
+    "name": "Electrical Engineering",
+    "dept_std_id": 2
+}
+```
+
